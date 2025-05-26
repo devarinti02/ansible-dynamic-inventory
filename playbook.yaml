@@ -1,6 +1,7 @@
 ---
 - name: install apache2 on slaves
-  hosts: tag_name_target01
+  hosts: abcd_target01
+
   become: true
 
   tasks:
